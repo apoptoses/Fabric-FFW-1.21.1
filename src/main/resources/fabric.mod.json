@@ -1,15 +1,15 @@
 {
 	"schemaVersion": 1,
 	"id": "frozen-farming-wasteland",
-	"version": "${version}",
+	"version": "${0.0.01}",
 	"name": "Frozen Farming Wasteland",
 	"description": "The world froze over and to live you must grow your own crops and survive without freezing or starving to death, but beware you're not the only living thing out there.\n!",
 	"authors": [
 		"emmi!"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "Discord: apoptoses.",
+		"sources": "https://github.com/apoptoses/Fabric-FFW-1.21.1"
 	},
 	"license": "MIT",
 	"icon": "assets/frozen-farming-wasteland/icon.png",
