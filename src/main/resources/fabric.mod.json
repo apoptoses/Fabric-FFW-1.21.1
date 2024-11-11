@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "frozen-farming-wasteland",
+	"version": "${version}",
+	"name": "Frozen Farming Wasteland",
+	"description": "The world froze over and to live you must grow your own crops and survive without freezing or starving to death, but beware you're not the only living thing out there.\n!",
+	"authors": [
+		"emmi!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/frozen-farming-wasteland/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.emmi.ffw.FrozenFarmingWasteland"
+		],
+		"fabric-datagen": [
+			"net.emmi.ffw.FrozenFarmingWastelandDataGenerator"
+		],
+		"client": [
+			"net.emmi.ffw.FFWClient"
+		]
+	},
+	"mixins": [
+		"frozen-farming-wasteland.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
