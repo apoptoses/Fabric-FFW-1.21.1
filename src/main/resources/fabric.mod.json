@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "frozen-farming-wasteland",
-	"version": "${0.0.01}",
+	"version": "${0.0.02}",
 	"name": "Frozen Farming Wasteland",
 	"description": "The world froze over and to live you must grow your own crops and survive without freezing or starving to death, but beware you're not the only living thing out there.\n!",
 	"authors": [
